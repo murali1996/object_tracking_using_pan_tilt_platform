@@ -1,0 +1,18 @@
+Upload the following code in Arduino UNO:
+>pan_tilt_led_shoot.ino
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Running in Linux Terminal:
+> cd Code_files
+> cd CppMT-master
+> cmake. 
+> make
+> ./cmt
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+> The 'main.cpp' is the main code.
+> '/dev/ttyACM3' is  the arduino serial port
+> Line 341:  cap.open(1) : Input '0' for Webcam use, else for camera input '1'
+> In the opened video file, select the object to be tracked. 
